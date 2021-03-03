@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Calculator",
+    "imgUrl": "/static/media/oracle_main_art.24b68c52.jpg",
+    "link": "/calculator",
+    "description": "Check my calculator app! Simple but it works)"
+  },
+  {
+    "id": 2,
+    "title": "Lorem ipsum!",
+    "imgUrl": "/static/media/oracle_main_art.24b68c52.jpg",
+    "link": "/",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum at mi vel ultrices. Cras quis tellus ultrices, ultrices elit quis, cursus urna. Aenean aliquet lorem rutrum ultrices porttitor."
+  },
+  {
+    "id": 3,
+    "title": "Lorem ipsum!",
+    "imgUrl": "/static/media/oracle_main_art.24b68c52.jpg",
+    "link": "/",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum at mi vel ultrices. Cras quis tellus ultrices, ultrices elit quis, cursus urna. Aenean aliquet lorem rutrum ultrices porttitor. Vivamus urna lacus, tempor non metus eget, bibendum iaculis massa. Cras tempus eros a accumsan ultrices."
+  },
+  {
+    "id": 4,
+    "title": "Lorem ipsum!",
+    "imgUrl": "/static/media/oracle_main_art.24b68c52.jpg",
+    "link": "/",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum at mi vel ultrices. Cras quis tellus ultrices, ultrices elit quis, cursus urna. Aenean aliquet lorem rutrum ultrices porttitor. Vivamus urna lacus, tempor non metus eget, bibendum iaculis massa. Cras tempus eros a accumsan ultrices."
+  }
+]
