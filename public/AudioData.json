@@ -2,16 +2,16 @@
   {
     "id": 1,
     "name": "Sadness and Madness",
-    "audioUrl": "/static/media/sadness=madness.7b61bfab.mp3"
+    "src": "/static/media/sadness=madness.7b61bfab.mp3"
   },
   {
     "id": 2,
     "name": "Eclipse",
-    "audioUrl": "/static/media/eclipse.0ce62d91.mp3"
+    "src": "/static/media/eclipse.0ce62d91.mp3"
   },
   {
     "id": 3,
     "name": "Cocaine",
-    "audioUrl": "/static/media/cocaine.fba3d035.mp3"
+    "src": "/static/media/cocaine.fba3d035.mp3"
   }
 ]

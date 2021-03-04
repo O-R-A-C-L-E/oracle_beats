@@ -16,21 +16,19 @@ class NewsSection extends React.Component {
             .catch(error => alert("Something went wrong! Can't receive data" + error));
     }
     render(props) {
-        const oddNewsData = [];
-        const evenNewsData = [];
+        let oddNewsData = [];
+        let evenNewsData = [];
 
+        let rightFilteredNews = [];
+        let leftFilteredNews = [];
         this.state.NewsData.forEach((item) => {
             if ((item.id % 2) === 0) {
-                return evenNewsData.push(item)
+                evenNewsData.push(item)
+                return rightFilteredNews = evenNewsData.map((item) => {return <NewsTemplate key={item.id} data={item}/>})
             } else {
-                return oddNewsData.push(item)
+                oddNewsData.push(item)
+                return leftFilteredNews = oddNewsData.map((item) => {return <NewsTemplate key={item.id} data={item}/>})
             }
-        })
-        const rightFilteredNews = evenNewsData.map((item) => {
-            return <NewsTemplate key={item.id} data={item}/>
-        })
-        const leftFilteredNews = oddNewsData.map((item) => {
-            return <NewsTemplate key={item.id} data={item}/>
         })
 
         return (

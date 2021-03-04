@@ -213,19 +213,12 @@ nav{
 .inactive-btn{
     display: none !important;
 }
-.pointer-event-none{
-
-}
-
 .news{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
 }
-.news-title{
-}
-
 .news-columns{
     width: 100%;
     display: flex;

@@ -14,25 +14,23 @@ class LastActivityArticle extends React.Component {
     }
 
     pauseOtherAudio =(currentAudio) =>{
-        let allAudio = document.querySelectorAll("[data-value]")
-        console.log(allAudio)
+        let allAudio = document.querySelectorAll("[data-player]")
+
         allAudio.forEach(audio =>{
             if (!audio.paused && audio !== currentAudio){
                 audio.pause();
                 audio.currentTime = 0;
             }
-
-
         })
     }
-
     render() {
+
         const Tile = this.state.audioData.map((item) => {
             return <PlayableTile
                 pauseOther={this.pauseOtherAudio}
                 key={item.id}
                 index={item.id}
-                audio={item.audioUrl}
+                audio={item.src}
                 name={item.name}
             />
         })

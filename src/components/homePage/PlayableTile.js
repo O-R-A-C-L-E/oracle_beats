@@ -19,9 +19,10 @@ class PlayableTile extends React.Component {
         this.props.pauseOther(currentAudio)
 
         if (currentAudio.paused) {
-            return currentAudio.play();
 
+            return currentAudio.play();
         } else {
+
             return currentAudio.pause();
         }
     }
@@ -64,7 +65,7 @@ class PlayableTile extends React.Component {
 				c11.782,0,21.333-9.551,21.333-21.333V20.333C361.667,8.551,352.115-1,340.333-1z"/>
                                 </svg>
                             </button>
-                            <audio data-value={this.state.id} src={this.state.src}></audio>
+                            <audio data-player={this.state.id} src={this.state.src}></audio>
                         </div>
                         <p className="track-name">{this.state.name}</p>
                     </div>
